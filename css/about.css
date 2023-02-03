@@ -1,0 +1,19 @@
+.container-fluid{
+    background-image: linear-gradient(to right,rgb(255, 255, 255,1),rgba(59, 58, 58,0)),url('../img/3.jpg'); background-size: cover;
+     width: 100%px;
+      height: 90vh; 
+      overflow: hidden;
+}
+.container-fluid h1{
+    color: #dc3545;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 160px;
+}
+.container-fluid p{
+    text-align: left;
+    padding: 60px 400px 0px 0px;
+    color:  #36414e;
+    font-size: 20px;
+    font-weight: bold;
+}
