@@ -3,6 +3,22 @@ body
     font-family: 'Montserrat', sans-serif;
     
 }
+.justify-text{
+  text-align: justify;
+}
+
+
+.card{
+  margin-bottom: 20px;
+}
+.fas{
+  color: red;
+}
+
+
+.justify-text-left{
+  text-align: left;
+}
 body p{
   font-size: 18px;
 }
