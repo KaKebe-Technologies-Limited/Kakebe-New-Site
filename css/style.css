@@ -15,6 +15,23 @@ body
   color: red;
 }
 
+.display-cards{
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+#programs .card{
+  margin: 10px;
+  border: none;
+  background-color: #f8f9fa;
+  padding: 0px;
+}
+
+#programs .card:hover{
+  box-shadow: #263238;
+  background-color: #263238;
+  color: white;
+}
 
 .justify-text-left{
   text-align: left;
