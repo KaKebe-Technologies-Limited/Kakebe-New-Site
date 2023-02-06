@@ -1,0 +1,12 @@
+@media(max-width: 850px){
+    .section1 .container .row{
+        display: block;
+        grid-template-columns: 1fr;
+    }
+    .section1 .container .row .col-7{
+        max-width: 400px;
+    }
+    .section1 .container .row .col-4 img{
+        max-width: 400px;
+    }
+}
