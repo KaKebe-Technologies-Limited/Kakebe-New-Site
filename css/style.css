@@ -14,11 +14,13 @@ body
 .fas{
   color: red;
 }
-
-.display-cards{
-  display: flex;
-  grid-template-columns: repeat(3, 1fr);
- 
+.card-design{
+  width: 330px;
+}
+.card-design img{
+ width: 330px;
+ align-items: center;
+  
 }
 #programs .card{
   margin: 10px;
@@ -35,6 +37,11 @@ body
 
 .justify-text-left{
   text-align: left;
+}
+
+/* clients */
+.clients-img img{
+  width: 100px
 }
 body p{
   font-size: 18px;
