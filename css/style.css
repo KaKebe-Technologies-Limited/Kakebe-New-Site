@@ -43,6 +43,48 @@ body
 .clients-img img{
   width: 100px
 }
+
+@media screen and (max-width:600px) {
+  .clients-img div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* background-color: black; */
+  }
+}
+
+/* Mobile View class for 1 column */
+@media screen and (max-width:600px) {
+  .mobile-view .inner-div{
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    border: none;
+    background-color: #f6efef;
+    margin: 30px;
+    place-content: center;
+  }
+}
+@media screen and (max-width:600px) {
+  .mobile-view{
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    border: none;
+    background-color: #861818;
+    margin: 30px;
+    place-content: center;
+  }
+}
+
+/* Mobile View class tablet */
+@media screen and (max-width:1024px) {
+  .mobile-view .inner-div{
+    display: flex;
+    grid-template-columns: 50% 50%;
+    border: none;
+    /* margin: 30px; */
+    place-content: center;
+  }
+}
+
 body p{
   font-size: 18px;
 }
