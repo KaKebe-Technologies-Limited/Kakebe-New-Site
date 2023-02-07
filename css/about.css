@@ -39,7 +39,7 @@ padding: 0px 100px 20px 0px;
     color: #dc3545;
 }
 .container-fluid{
-    background-image: linear-gradient(to right,rgb(255, 255, 255,1),rgba(59, 58, 58,0)),url('../img/3.jpg'); background-size: cover;
+    background-image: linear-gradient(to right,rgb(255, 255, 255,1),rgba(59, 58, 58,0)),url('../img/2.png'); background-size: cover;
      width: 100%px;
       height: 90vh; 
       overflow: hidden;
