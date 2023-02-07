@@ -50,35 +50,81 @@
                     margin-bottom: 50px;
                   }
                 }
+                .dropbtn {
+                        background-color: transparent;
+                        color: white;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        padding-top: 25px;
+                    }
+                    
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: white;
+                        min-width: 150px;
+                        z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: transparent; 
+                      color: #fc5546;
+                    }
+                    .dropdown:hover .dropdown-content {display: block;color: 
+                      #fc5546;
+                    }
+                    .dropdown:hover .dropbtn {background-color: transparent;
+                       color: #fc5546;
+                      }
               </style>
 </head>
 <body>
     <header>
 <!-- ======================================Navigation Bar================================================= -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="program.html" class="nav-link">Our Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
+<nav class="navbar navbar-expand-lg navStyle">
+  <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+      <span><i class="fas fa-align-right iconStyle"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mainMenu">
+      <ul class="navbar-nav ml-auto navList">
+          <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+          <li class="nav-item">
+              <a href="about.html" class="nav-link">Who we are</a>
+          </li>
+          <li class="nav-item">
+              <a href="service.html" class="nav-link">What We Do</a>
+          </li>
+          <li class="nav-item">                    
+          <div class="dropdown">
+          <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+          <div class="dropdown-content">
+          
+          <a href="internship.html" style="color:black">Internship</a>
+          <a href="robotics.html" style="color:black">Robotics</a>
+          </div>
+          </div>
+          </li>
+          <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+        </li>
+      </ul>
+  </div>
+</nav>
 <!-- ======================================carousel================================================= -->
 <section class="hero">
     <div class="container">
@@ -89,17 +135,38 @@
       </div>
     </div>
   </section>
-<div class="container mt-5">
-    <div class="row">
-        <h3>Kakebe Robotics Program</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit non a temporibus, enim quasi nesciunt impedit praesentium quod. Ducimus, porro aliquam nobis odit impedit esse ad corrupti, veniam dolorum quia cumque, a rerum quibusdam exercitationem voluptatem repudiandae! Maiores voluptate ea fugit et similique odio fugiat, quisquam facere enim suscipit itaque?</p>
+  <div class="container  mt-5">
+    <div class="row ">
+        <div class="col-4">
+          <img src="img/7.webp" width="340px" alt="failed">
+        </div>
+        <div class="col-7 mt-4">
+            <h1 class="mb-5">Kakebe Robotics Program</h1>
+            <p class="justify-text">Over the last two decades, the rapid growth of ICT has become one of the most important topics discussed by the scholars in education. This is due to the capability of ICT in providing a dynamic and proactive teaching and learning environment. Increasingly, it is being applied successfully in instruction, learning, and assessment. ICT is considered a powerful tool for educational change and reform</p>
+            </div>
+          <div class="col-1"></div>
+      </div>
 
-    
-        <h3>Requirments for Internships</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, atque alias molestiae consequuntur, quae recusandae optio consectetur ab explicabo dignissimos voluptas labore aliquam tenetur nesciunt fugiat? Architecto dolore eum labore!</p>
+    <hr>
 
-        <h3>Internship Schedules 2023</h3>
-        <p  class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque impedit dolorem ipsa possimus, fugiat culpa aliquid deserunt consequuntur id. Enim.</p>
+    <div class="container my-5">
+      <h3>Our Approach</h3>
+      <p class="justify-text">Our practical approach is to add two special IT Special Class fields that we have studied, been part of the program and we value that it makes a lot of difference in the innovation world. The ICT Special Class helps students to learn four main things in terms of discovering, learning how, understanding how and when, and specializing in the use of ICT tools. Our special classes are Robotics & Embedded Systems and Software Development class. Learning institutions, schools and individuals who are passionate in having the skills reach out here <a href="mailto:service@kakebe.com">Send email inquiry</a> or send <a href="https://wa.me/0393249845?text=<Inquiry from Website>" target="_blank"> WhatsApp</a> </p>
+    </div>
+        
+
+      <div class="container my-5">
+        <h1 class="text-center">Our Goals</h1>
+        <ul class="list-group">
+          <li class="list-group-item"> <b> Goal 1 </b>- Inspire scientific curiosity by engaging young people in practical technology and innovation activities.</li>
+          <li class="list-group-item"><b> Goal 2 </b>Build creativity and improve resilience in young people through STEM activities that use the engineering design process.</li>
+          <li class="list-group-item"><b> Goal 3 </b>Youth resilience goal: Engage youth in STEM activities that lead to self reliance and flexible thinking.</li>
+          <li class="list-group-item"><b> Goal 4 </b>Problem solving goal. Train Ugandan youth to develop projects that transform their communities by solving local challenges and creating sustainable livelihoods.</li>
+         
+        </ul>
+      </div>
+
+      
     </div>
 </div>
 
