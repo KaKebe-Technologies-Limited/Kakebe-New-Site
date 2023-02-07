@@ -126,7 +126,13 @@ padding: 0px 100px 20px 0px;
     max-width: 100%;
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 600px) {
+    .justify-text {
+      text-align: justify;
+    }
+  }
+
+  @media (max-width: 600px) {
     header .container {
       max-width: 1300px;
     }

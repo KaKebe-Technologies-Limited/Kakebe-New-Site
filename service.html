@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,46 +22,93 @@
             <link rel="stylesheet" href="fonts/stylesheet.css">
             <link rel="stylesheet" href="css/service.css">
             <style>
-                
+                .dropbtn {
+                        background-color: transparent;
+                        color: white;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        padding-top: 27px;
+                    }
+                    
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: white;
+                        min-width: 150px;
+                        z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: transparent; 
+                      color: #fc5546;
+                    }
+                    .dropdown:hover .dropdown-content {display: block;color: 
+                      #fc5546;
+                    }
+                    .dropdown:hover .dropbtn {background-color: transparent;
+                       color: #fc5546;
+                      }
+                    
             </style>
    
 </head>
 <body>
     <header>
 <!-- ======================================Navigation Bar================================================= -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="program.html" class="nav-link">Our Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">contact</a>
-                    </li>
-                </ul>
+<nav class="navbar navbar-expand-lg navStyle">
+    <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+        <span><i class="fas fa-align-right iconStyle"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ml-auto navList">
+            <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">Who we are</a>
+            </li>
+            <li class="nav-item">
+                <a href="service.html" class="nav-link">What We Do</a>
+            </li>
+            <li class="nav-item">                    
+            <div class="dropdown">
+            <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+            <div class="dropdown-content">
+            
+            <a href="internship.html" style="color:black">Internship</a>
+            <a href="robotics.html" style="color:black">Robotics</a>
             </div>
-        </nav>
-    </header>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
 <div class="section1">
     <div class="container mt-5">
         <div class="row">
-          
-
-          <div class="col-7 mt-4">
-          <h1 class="mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, eveniet.</h1>
-          <p class="justify-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum voluptatibus cum molestias nisi ducimus a asperiores quia iste accusamus temporibus, dolor unde, reiciendis vero nobis consectetur numquam, fugiat blanditiis dolorem incidunt alias! Ad consequatur similique accusantium esse quam, modi nesciunt repellat atque quasi obcaecati earum, tempora quia facilis impedit possimus nisi cumque ipsum debitis voluptas omnis eveniet dolores officiis? Totam?</p>
+          <div class="col-6 mt-4">
+          <h3 class="mb-2">Kakebe builds...</h3>
+          <!-- <p>Kakebe builds ... </p> -->
+          <p class="justify-text">Passionate and enthusiatic youths in technology with great hands on experience and skills; We build technologies to create a difference and boost productivity for businesses, companies, institutions and organizations. Our services are visioned towards the following. Making businesses efficient & connected.
+            Embracing the current trend of technologies in everyday life
+            Provide quality technology oriented services to our clients </p>
           </div>
           <div class="col-1"></div>
           <div class="col-4">
@@ -79,9 +125,7 @@
        
         <!-- ===== OUR SERIVCES  -->
 
-        <div class="container mt-5">
-
-            Kakebe is a software company builds ... 
+        <div class="container mt-5"> 
             <h4>Our Software Services..</h4> <br>
 
             <div class="row">
@@ -155,38 +199,15 @@
                 </div>
                 </div>
             </div> 
+            <a href="#"><button type="button" class="btn btn-success">Get Quote</button></a>
         </div>
 
        
         
 
 <!-- ===== END OF OUR SERIVCES  -->
-<!-- ===== OUR CLIENTS ==== -->
-<div class="container">
-    <h1 class="text-center mt-5">Certified Clients</h1>
-    <hr>
-    <div class="row clients-img">
-      <div class="col-md-3 col-sm-6">
-        <img src="img/user1.png" alt="Client 1 Logo" width="100px" class="img-fluid">
-        <p class=" mt-3">Jaso Power Consult</p>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <img src="img/user1.png" alt="Client 1 Logo" width="100px" class="img-fluid">
-        <p class=" mt-3">Jaso Power Consult</p>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <img src="img/user1.png" alt="Client 1 Logo" width="100px" class="img-fluid">
-        <p class=" mt-3">Jaso Power Consult</p>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <img src="img/user1.png" alt="Client 1 Logo" width="100px" class="img-fluid">
-        <p class=" mt-3">Jaso Power Consult</p>
-      </div>
-    </div>
-  </div>
-
               
-  
+    </header>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>

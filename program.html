@@ -23,34 +23,83 @@
             <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="fonts/stylesheet.css">
             <link rel="stylesheet" href="style.css">
+            <style>
+                 .dropbtn {
+                        background-color: transparent;
+                        color: white;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        padding-top: 34px;
+                    }
+                    
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: white;
+                        min-width: 150px;
+                        z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: transparent; 
+                      color: #fc5546;
+                    }
+                    .dropdown:hover .dropdown-content {display: block;color: 
+                      #fc5546;
+                    }
+                    .dropdown:hover .dropbtn {background-color: transparent;
+                       color: #fc5546;
+                      }
+            </style>
    
 </head>
 <body>
     <header>
 <!-- ======================================Navigation Bar================================================= -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="program.html" class="nav-link">Our Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">contact</a>
-                    </li>
-                </ul>
+<nav class="navbar navbar-expand-lg navStyle">
+    <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+        <span><i class="fas fa-align-right iconStyle"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ml-auto navList">
+            <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">Who we are</a>
+            </li>
+            <li class="nav-item">
+                <a href="service.html" class="nav-link">What We Do</a>
+            </li>
+            <li class="nav-item">                    
+            <div class="dropdown">
+            <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+            <div class="dropdown-content">
+            
+            <a href="internship.html" style="color:black">Internship</a>
+            <a href="robotics.html" style="color:black">Robotics</a>
             </div>
-        </nav>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     </header>
 
     <header class="jumbotron">

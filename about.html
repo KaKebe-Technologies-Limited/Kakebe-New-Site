@@ -23,6 +23,54 @@
             <link rel="stylesheet" href="fonts/stylesheet.css">
             <link rel="stylesheet" href="css/about.css">
             <style>
+                 section{
+    background-image: linear-gradient(to right,rgb(255, 255, 255,1),rgba(59, 58, 58,0)),url('../img/2.png'); background-size: cover;
+     /* width: 100%px; */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 100px; */
+}
+
+@media(max-width: 850px){
+    section{
+      max-width: 100%;
+       height: 200px; 
+       overflow: hidden;
+       position: relative;
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       align-items: center;
+    justify-content: center;
+    }
+    /* .container-fluid .texts{
+        margin-bottom: 100px;
+    } */
+   section .text-left{
+    font-size: 30px;
+   }
+   section .text{
+    font-size: 10px;
+   }
+
+  }
+section h1{
+    color: #dc3545;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+section p{   
+    
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
                 .partner-logo {
                   height: 140px;
                   width: 160px;
@@ -35,40 +83,48 @@
 <body>
     <header>
 <!-- ======================================Navigation Bar================================================= -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item ">
-                        <a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link active">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="program.html" class="nav-link">Our Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">contact</a>
-                    </li>
-                </ul>
+<nav class="navbar navbar-expand-lg navStyle">
+    <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+        <span><i class="fas fa-align-right iconStyle"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ml-auto navList">
+            <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">Who we are</a>
+            </li>
+            <li class="nav-item">
+                <a href="service.html" class="nav-link">What We Do</a>
+            </li>
+            <li class="nav-item">                    
+            <div class="dropdown">
+            <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+            <div class="dropdown-content">
+            
+            <a href="internship.html" style="color:black">Internship</a>
+            <a href="robotics.html" style="color:black">Robotics</a>
             </div>
-        </nav>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     </header>
 <!-- ======================================carousel================================================= -->   
-    <div class="container-fluid">
-
-        <div class="texts">
+    <section class="container-fluid">
         <h1 class="text-left">We are...</h1>
        <p class="text">Youth led software company transforming the sequence of tech in Northern Uganda!</p>
        </div>
     </div>
 
+    </section>
 
              <!-- main section   -->
 
@@ -93,7 +149,7 @@
 
             <div class="container mt-5">
                 <h4>Our Software Services..</h4> <br>
-
+               
 
                 <div class="row">
                 <div class="col-md-4">
@@ -168,6 +224,9 @@
                 </div> 
             </div>
 
+            <a href="#"><button type="button" class="btn btn-success">Get Quote</button></a>
+            
+        </div>
 <!-- ===== END OF OUR SERIVCES  -->
 
 
@@ -540,9 +599,8 @@
     <div class=" col-sm-6 col-md  col-6 col">
     <h5 class="headin5_amrc col_white_amrc pt2 text-center">About Us</h5>
     <!--headin5_amrc-->
-
     <p class="justify-text-left" style="font-size: 13px;">Kakebe Technologies is a software company based in Lira City and one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda. </p>
-
+   
     
     
     </div>
