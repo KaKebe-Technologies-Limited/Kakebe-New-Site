@@ -79,6 +79,11 @@ padding: 0px 100px 20px 0px;
 {
     color: #dc3545;
 }
+@media(max-width: 850px){
+  .navbar img{
+    margin-right: 50px;
+  }
+}
 
 /* carousel start  */
  
@@ -104,7 +109,7 @@ padding: 0px 100px 20px 0px;
   @media(max-width: 850px){
     .row .col-4 button{
       width: 200px;
-      padding-right: 20px;
+      margin-left: 30px;
     }
   }
   
@@ -524,3 +529,15 @@ footer p { font-size:20px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
 
+
+
+@media(max-width: 850px){
+  .container .bottom_border{
+    display: block;
+    grid-template-columns: 3fr;
+    
+  }
+  footer .container .row .col{
+    max-width: 400px;
+  }
+}

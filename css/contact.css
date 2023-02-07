@@ -256,17 +256,10 @@ textarea.input {
     height: 450px;
   }
 } */
-@media(max-width: 850px){
-  iframe{
-    width: 1000px;
-  }
-}
+
 @media(max-width: 850px){
   .home_form{
     width: 500px;
-  }
-  iframe{
-    width: 300px;
   }
 }
 @media (max-width: 850px) {
@@ -369,3 +362,21 @@ textarea.input {
   font-weight: bold;
 } 
 
+@media(max-width: 850px){
+  footer .container-fluid .row{
+    display: block;
+    grid-template-columns: 3fr;
+  }
+  footer .container-fluid .row .col{
+      max-width: 400px;
+  }
+  
+}
+@media(max-width: 850px){
+  .carousel-inner .carousel-item{
+    max-width: 100%;
+     height: 30vh; 
+     overflow: hidden;
+  }
+ 
+}
