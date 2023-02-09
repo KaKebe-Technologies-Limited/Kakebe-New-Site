@@ -5,8 +5,10 @@ body
     font-family: 'Montserrat', sans-serif;
     
 }
+
+/* i */
 .justify-text{
-  text-align: justify;
+  text-align: justify !important
 }
 
 
