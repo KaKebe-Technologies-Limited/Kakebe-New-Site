@@ -21,7 +21,7 @@
          <meta property="og:image" content="img/kakebe.JPG">
 
           <!-- Link Display  -->
-          
+
         <!-- favicon  -->
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <!--Fonts/Icons CSS-->
@@ -162,20 +162,25 @@
   <div class="section1">
     <div class="container mt-5">
         <div class="row">
-          <div class="col-5">
-            <img src="img/gallery/1 (34).JPG" width="400px" alt="failed">
-          </div>
+         
 
           <div class="col-7 mt-5">
           <h3 class="mb-5">Internship</h3>
           <!-- <p>Kakebe builds ... </p> -->
           <p class="justify-text">Kakebe internship program is a structured work-based learning experience designed to provide students, recent graduates, or individuals seeking to change careers with hands-on exposure to a technology industry or profession. Our internships can be full-time or part-time, paid or unpaid, and may last anywhere from a few weeks to two months </p>
           </div>
+
+          <div class="col-5">
+            <img src="img/gallery/1 (34).JPG" width="400px" alt="failed">
+          </div>
+          
           <hr>
       </div>
  </div>
 
+ 
 </div>
+
   
   <div class="container mt-5">
     <div class="row">
@@ -212,6 +217,67 @@
         <li>Salary potential</li>
       </ol>
     </div>
+
+    <div class="container">
+      <!-- Kakebe Forms -->
+    <link href="https://forms.kakebe.com/static_files/css/form.popup.min.css" rel="stylesheet" type="text/css">
+    <style>
+        .ef-modal {
+            background: rgba(0, 0, 0, 0.75) !important; /* Overlay color */
+        }
+        .ef-modal-box {
+            margin: 115px auto !important; /* Pop-Up margin */
+            padding: 21px !important; /* Pop-Up pading */
+            width: 60% !important; /* Pop-Up width */
+            border-radius: 45px !important; /* Pop-Up radius */
+            background: rgb(255, 255, 255) !important; /* Pop-Up background */
+    
+            /** Animation duration **/
+            -webkit-transition: all 0.9s !important;
+            -moz-transition: all 0.9s !important;
+            -o-transition: all 0.9s !important;
+            transition: all 0.9s !important;
+        }
+    </style>
+    <div class="ef-btn-wrapper ef-btn-wrapper-1">
+        <button id="ef-button-1" class="ef-button ef-button-1 ef-button-error ef-button-inline-placement">Kakebe Internship Application</button>
+    </div>
+    <div id="ef-content-1" class="ef-content-wrapper">
+        <div id="c1" class="ef-content">
+            Fill out my <a href="https://forms.kakebe.com/app/form?id=2lyEsw">online form</a>.
+        </div>
+        <script type="text/javascript">
+            (function(d, t) {
+                var s = d.createElement(t), options = {
+                    'id': '2lyEsw',
+                    'container': 'c1',
+                    'height': '2769px',
+                    'form': '//forms.kakebe.com/app/embed'
+                };
+                s.type= 'text/javascript';
+                s.src = '//forms.kakebe.com/static_files/js/form.widget.js';
+                s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { (new EasyForms()).initialize(options).display() } catch (e) { }
+                };
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');
+        </script>
+    </div>
+    <script src="//forms.kakebe.com/static_files/js/form.popup.min.js"></script>
+    <script type="text/javascript">
+        var modal1 = new EasyForms.Modal({
+            autoOpen: false,
+            cssClass: ['ef-effect-fade-in']
+        });
+        var btn1 = document.querySelector('.ef-button-1');
+        btn1.addEventListener('click', function(){
+            modal1.open();
+        });
+        modal1.setContent(document.getElementById('ef-content-1'));
+    </script>
+    <!-- End Kakebe Forms -->
+     </div>
         
           <!-- <h3>Internship Schedules for 2023</h3> 
           <div class="container my-2">
@@ -258,7 +324,7 @@
   <div class="container">
       <!-- Kakebe Forms -->
 <div id="c1">
-  Fill out my <a href="https://forms.kakebe.com/app/form?id=2lyEsw">online form</a>.
+  Fill out Kakebe Internship Application  <a href="https://forms.kakebe.com/app/form?id=2lyEsw">online form</a>.
 </div>
 <script type="text/javascript">
   (function(d, t) {
