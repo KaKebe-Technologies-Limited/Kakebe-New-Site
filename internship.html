@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+   <!-- Link Display -->
+   <meta property="og:title" content="Internship Program  | Kakebe Technologies ">
+   <meta property="og:description" content="Youth led Software Company transforming the sequence of tech in Northern Uganda!">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://kakebe.com">
+   <meta property="og:image" content="img/train.JPG">
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +22,22 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!------ Include the above in your HEAD tag ---------->
 
+         <!-- Link Display -->
+         <meta property="og:title" content="Kakebe Technologies - Internship">
+         <meta property="og:description" content="Kakebe is one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda.">
+         <meta property="og:type" content="website">
+         <meta property="og:url" content="https://kakebe.com">
+         <meta property="og:image" content="img/kakebe.JPG">
+
+          <!-- Link Display  -->
+
         <!-- favicon  -->
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <!--Fonts/Icons CSS-->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="fonts/stylesheet.css">
+            <link rel="stylesheet" href="css/service.css">
    
             <style>
                 .hero {
@@ -45,40 +64,100 @@
                   .mt-5 .row{
                     text-align:center;
                   }
+                  .mt-5 .row .col-4 img{
+                    max-width: 350px;
+                  }
+                 
+                  .mt-5 .row .col-7{
+                    max-width: 400px;
+                    justify-content: center;
+                  }
                   .mt-5 .row p{
                     text-align: center;
                     margin-bottom: 50px;
                   }
                 }
+                .dropbtn {
+                        background-color: transparent;
+                        color: white;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        padding-top: 25px;
+                    }
+                    
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: white;
+                        min-width: 150px;
+                        z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: transparent; 
+                      color: #fc5546;
+                    }
+                    .dropdown:hover .dropdown-content {display: block;color: 
+                      #fc5546;
+                    }
+                    .dropdown:hover .dropbtn {background-color: transparent;
+                       color: #fc5546;
+                      }
               </style>
 </head>
 <body>
     <header>
 <!-- ======================================Navigation Bar================================================= -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="program.html" class="nav-link">Our Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
+<nav class="navbar navbar-expand-lg navStyle">
+  <a href="index.html"><p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p></a>
+  
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+      <span><i class="fas fa-align-right iconStyle"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mainMenu">
+      <ul class="navbar-nav ml-auto navList">
+          <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+          <li class="nav-item">
+              <a href="about.html" class="nav-link">Who we are</a>
+          </li>
+          <li class="nav-item">
+              <a href="service.html" class="nav-link">What We Do</a>
+          </li>
+          <li class="nav-item">                    
+          <div class="dropdown">
+          <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+          <div class="dropdown-content">
+          
+          <a href="internship.html" style="color:black">Internship</a>
+          <a href="robotics.html" style="color:black">Robotics</a>
+          <a href="program.html" style="color:black">Website Development</a>
+                    <a href="program.html" style="color:black">App Development</a>
+                    <a href="program.html" style="color:black">Networking</a>
+                    <a href="program.html" style="color:black">Corporate Training</a>
+                    <a href="program.html" style="color:black">Domain Hosting</a>
+          </div>
+          </div>
+          </li>
+          <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+        </li>
+      </ul>
+  </div>
+</nav>
 <!-- ======================================carousel================================================= -->
 <section class="hero">
     <div class="container">
@@ -89,72 +168,226 @@
       </div>
     </div>
   </section>
-<div class="container mt-5">
-    <div class="row">
-        <h3>Kakebe Internship Program 2023</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit non a temporibus, enim quasi nesciunt impedit praesentium quod. Ducimus, porro aliquam nobis odit impedit esse ad corrupti, veniam dolorum quia cumque, a rerum quibusdam exercitationem voluptatem repudiandae! Maiores voluptate ea fugit et similique odio fugiat, quisquam facere enim suscipit itaque?</p>
 
-    
-        <h3>Requirments for Internships</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, atque alias molestiae consequuntur, quae recusandae optio consectetur ab explicabo dignissimos voluptas labore aliquam tenetur nesciunt fugiat? Architecto dolore eum labore!</p>
+  <div class="section1">
+    <div class="container mt-5">
+        <div class="row">
+         
 
-        <h3>Internship Schedules 2023</h3>
-        <p  class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque impedit dolorem ipsa possimus, fugiat culpa aliquid deserunt consequuntur id. Enim.</p>
-
-        <div class="container my-2">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Dates</th>
-                  <th scope="col">Number</th>
-                  <th scope="col">Location</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">March - April </th>
-                <th scope="row">15</th>
-                  <td>Kakebe Headquarters Lira</td>
-                </tr>
-                <tr>
-                  <th scope="row">April - May</th>
-                <th scope="row">15</th>  
-                  <td>Kakebe Headquarters Lira</td>
-                </tr>
-                <tr>
-                  <th scope="row">June - August</th>
-                  <th scope="row">15</th>
-                  <td>Kakebe Headquarters Lira</td>
-                </tr>
-                <tr>
-                  <th scope="row">October</th>
-                <th scope="row">15</th>  
-                  <td>Kakebe Headquarters Lira</td>
-                </tr>
-                <tr>
-                  <th scope="row">November - January</th>
-                <th scope="row">15</th>
-                  <td>Kakebe Headquarters Lira</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="col-7 mt-5">
+          <h3 class="mb-5">Internship</h3>
+          <!-- <p>Kakebe builds ... </p> -->
+          <p class="justify-text">Kakebe internship program is a structured work-based learning experience designed to provide students, recent graduates, or individuals seeking to change careers with hands-on exposure to a technology industry or profession. Our internships can be full-time or part-time, paid or unpaid, and may last anywhere from a few weeks to two months </p>
           </div>
-    </div>
+
+          <div class="col-5">
+            <img src="img/gallery/1 (34).JPG" width="400px" alt="failed">
+          </div>
+
+          <hr>
+      </div>
+ </div>
+
+ 
 </div>
 
-<div class="container my-5">
-    <div class="row image-grid">
-      <div class="col-md-4">
-        <img src="https://picsum.photos/400/300" alt="Image 1" />
-      </div>
-      <div class="col-md-4">
-        <img src="https://picsum.photos/400/300" alt="Image 2" />
-      </div>
-      <div class="col-md-4">
-        <img src="https://picsum.photos/400/300" alt="Image 3" />
+  
+  <div class="container mt-5">
+    <div class="row">
+        <!-- <div class="container mt-5">
+          <div class="row">
+            <div class="col-4">
+              <img src="img/7.webp" width="340px" alt="failed">
+            </div>
+  
+            <div class="col-7 mt-4">
+            <h1 class="mb-5">Internship Program</h1>
+            <p class="justify-text">Kakebe internship program is a structured work-based learning experience designed to provide students, recent graduates, or individuals seeking to change careers with hands-on exposure to a technology industry or profession. Our internships can be full-time or part-time, paid or unpaid, and may last anywhere from a few weeks to two months.</p>
+            </div>
+          <div class="col-1"></div>
+      </div> -->
+  
+    
+  
+
+
+    <div class="container my-5">
+      <h3>Internship Goal</h3>
+      <p class="justify-text">The primary goal of an internship is to provide the intern with practical experience in a real-world work setting at our head offices in Lira City. This can include tasks such as conducting research, assisting with projects, shadowing professionals, and gaining exposure to the day-to-day operations of the company. Interns also benefit from professional development opportunities such as attending workshops, networking events, and informational interviews. In some cases, internships may also lead to full-time job offers upon completion.</p>
+  
+      <h3>Benefits of Internship</h3>
+      <p>Internship at Kakebe offers a number of benefits to the internee</p>
+  
+      <ol class="justify-text">
+        <li>Hands-on experience</li>
+        <li>Career exploration</li>
+        <li>Networking</li>
+        <li>Resume building.</li>
+        <li>Skill development</li>
+        <li>Salary potential</li>
+      </ol>
+    </div>
+
+    <div class="container">
+    <!-- Kakebe Forms -->
+<link href="https://forms.kakebe.com/static_files/css/form.popup.min.css" rel="stylesheet" type="text/css">
+<style>
+    .ef-modal {
+        background: rgba(0, 0, 0, 0.75) !important; /* Overlay color */
+    }
+    .ef-modal-box {
+        margin: 60px auto !important; /* Pop-Up margin */
+        padding: 3px !important; /* Pop-Up pading */
+        width: 90% !important; /* Pop-Up width */
+        border-radius: 10px !important; /* Pop-Up radius */
+        background: rgb(255, 255, 255) !important; /* Pop-Up background */
+
+        /** Animation duration **/
+        -webkit-transition: all 0.6s !important;
+        -moz-transition: all 0.6s !important;
+        -o-transition: all 0.6s !important;
+        transition: all 0.6s !important;
+    }
+</style>
+<div class="ef-btn-wrapper ef-btn-wrapper-1">
+    <button id="ef-button-1" class="ef-button ef-button-1 ef-button-error ef-button-inline-placement">Kakebe Internship Application</button>
+</div>
+<div id="ef-content-1" class="ef-content-wrapper">
+    <div id="c1" class="ef-content">
+        Fill out my <a href="https://forms.kakebe.com/app/form?id=2lyEsw">online form</a>.
+    </div>
+    <script type="text/javascript">
+        (function(d, t) {
+            var s = d.createElement(t), options = {
+                'id': '2lyEsw',
+                'container': 'c1',
+                'height': '2769px',
+                'form': '//forms.kakebe.com/app/embed'
+            };
+            s.type= 'text/javascript';
+            s.src = '//forms.kakebe.com/static_files/js/form.widget.js';
+            s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { (new EasyForms()).initialize(options).display() } catch (e) { }
+            };
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');
+    </script>
+</div>
+<script src="//forms.kakebe.com/static_files/js/form.popup.min.js"></script>
+<script type="text/javascript">
+    var modal1 = new EasyForms.Modal({
+        autoOpen: false,
+        cssClass: ['ef-effect-fade-in']
+    });
+    var btn1 = document.querySelector('.ef-button-1');
+    btn1.addEventListener('click', function(){
+        modal1.open();
+    });
+    modal1.setContent(document.getElementById('ef-content-1'));
+</script>
+<!-- End Kakebe Forms -->
+     </div>
+        
+          <!-- <h3>Internship Schedules for 2023</h3> 
+          <div class="container my-2">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Dates</th>
+                    <th scope="col">Number</th>
+                    <th scope="col">Location</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">March - April </th>
+                  <th scope="row">15</th>
+                    <td>Kakebe Headquarters Lira</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">April - May</th>
+                  <th scope="row">15</th>  
+                    <td>Kakebe Headquarters Lira</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">June - August</th>
+                    <th scope="row">15</th>
+                    <td>Kakebe Headquarters Lira</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">October</th>
+                  <th scope="row">15</th>  
+                    <td>Kakebe Headquarters Lira</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">November - January</th>
+                  <th scope="row">15</th>
+                    <td>Kakebe Headquarters Lira</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div> -->
       </div>
   </div>
-       
+
+  <div class="container">
+      <!-- Kakebe Forms -->
+<div id="c1">
+  Fill out Kakebe Internship Application  <a href="https://forms.kakebe.com/app/form?id=2lyEsw">online form</a>.
+</div>
+<script type="text/javascript">
+  (function(d, t) {
+      var s = d.createElement(t), options = {
+          'id': '2lyEsw',
+          'theme': 0,
+          'container': 'c1',
+          'height': '2898px',
+          'form': '//forms.kakebe.com/app/embed'
+      };
+      s.type= 'text/javascript';
+      s.src = '//forms.kakebe.com/static_files/js/form.widget.js';
+      s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+          try { (new EasyForms()).initialize(options).display() } catch (e) { }
+      };
+      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+  })(document, 'script');
+</script>
+<!-- End Kakebe Forms -->
+    
+  </div>
+  <!-- <div class="container my-5">
+      <div class="row image-grid">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300" alt="Image 1" />
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300" alt="Image 2" />
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300" alt="Image 3" />
+        </div>
+    </div> -->
+         
+        
+
+<!-- ===== END OF OUR SERIVCES  -->
+  </div>
+  
+  <div class="container my-5">
+      <div class="row image-grid">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300" alt="Image 1" />
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300" alt="Image 2" />
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/400/300" alt="Image 3" />
+        </div>
+    </div>
+         
         
 
 <!-- ===== END OF OUR SERIVCES  -->
@@ -207,14 +440,13 @@
     
     <div class="container">
     <ul class="foote_bottom_ul_amrc">
-    <li><a href="http://webenlance.com">Home</a></li>
-    <li><a href="http://webenlance.com">About</a></li>
-    <li><a href="http://webenlance.com">Services</a></li>
-    <li><a href="http://webenlance.com">Projects</a></li>
-    <li><a href="http://webenlance.com">Contact Us</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="programs.html">Programs</a></li>
     </ul>
     <!--foote_bottom_ul_amrc ends here-->
-    <p class="text-center" style="font-size: 15px;">Copyright | Designed With by <a href="#">Kakebe Technologies</a></p>
+    <p class="text-center" style="font-size: 15px;">Copyright | Designed by <a href="https://kakebe.com/">Kakebe Technologies</a></p>
     
     <ul class="social_footer_ul">
     <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>

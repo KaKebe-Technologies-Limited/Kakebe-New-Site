@@ -1,11 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <!-- Link Display -->
+   <meta property="og:title" content="Who We Are | Kakebe Technologies ">
+   <meta property="og:description" content="Youth led Software Company transforming the sequence of tech in Northern Uganda!">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://kakebe.com">
+   <meta property="og:image" content="img/bg2.JPG">
+
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kakebe Technologies</title>
+    <title>About Us - Kakebe Technologies</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <!-- <link rel="stylesheet" href="css/style.css"> -->
@@ -14,15 +21,74 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!------ Include the above in your HEAD tag ---------->
 
-           <!-- favicon  -->
-           <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+         <!-- Link Display -->
+         <meta property="og:title" content="Kakebe Technologies - Lira City">
+         <meta property="og:description" content="Kakebe is one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda.">
+         <meta property="og:type" content="website">
+         <meta property="og:url" content="https://kakebe.com">
+         <meta property="og:image" content="img/kakebe.JPG">
+
+        <!-- Link Display  -->
+        
+        <!-- favicon  -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
         <!--Fonts/Icons CSS-->
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="fonts/stylesheet.css">
             <link rel="stylesheet" href="css/about.css">
+            <link rel="stylesheet" href="css/style.css">
+            
             <style>
+                 section{
+    background-image: linear-gradient(to right,rgb(255, 255, 255,1),rgba(59, 58, 58,0)),url('../img/pk.jpg'); background-size: cover;
+     /* width: 100%px; */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 100px; */
+}
+
+@media(max-width: 850px){
+    section{
+      max-width: 100%;
+       height: 200px; 
+       overflow: hidden;
+       position: relative;
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       align-items: center;
+    justify-content: center;
+    }
+    /* .container-fluid .texts{
+        margin-bottom: 100px;
+    } */
+   section .text-left{
+    font-size: 30px;
+   }
+   section .text{
+    font-size: 10px;
+   }
+
+  }
+section h1{
+    color: #dc3545;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+section p{   
+    
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
                 .partner-logo {
                   height: 140px;
                   width: 160px;
@@ -35,39 +101,53 @@
 <body>
     <header>
 <!-- ======================================Navigation Bar================================================= -->
-        <nav class="navbar navbar-expand-lg navStyle">
-            <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-                <span><i class="fas fa-align-right iconStyle"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="mainMenu">
-                <ul class="navbar-nav ml-auto navList">
-                    <li class="nav-item ">
-                        <a href="index.html" class="nav-link">HOME</a></li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link active">Who we are</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="service.html" class="nav-link">What We Do</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="program.html" class="nav-link">Our Programs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">contact</a>
-                    </li>
-                </ul>
+<nav class="navbar navbar-expand-lg navStyle">
+    <p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+        <span><i class="fas fa-align-right iconStyle"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav ml-auto navList">
+            <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">Who we are</a>
+            </li>
+            <li class="nav-item">
+                <a href="service.html" class="nav-link">What We Do</a>
+            </li>
+            <li class="nav-item">                    
+            <div class="dropdown">
+            <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+            <div class="dropdown-content">
+            
+            <a href="internship.html" style="color:black">Internship</a>
+            <a href="robotics.html" style="color:black">Robotics</a>
+            <a href="program.html" style="color:black">Website Development</a>
+                    <a href="program.html" style="color:black">App Development</a>
+                    <a href="program.html" style="color:black">Networking</a>
+                    <a href="program.html" style="color:black">Corporate Training</a>
+                    <a href="program.html" style="color:black">Domain Hosting</a>
             </div>
-        </nav>
+            </div>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     </header>
 <!-- ======================================carousel================================================= -->   
-    <div class="container-fluid">
-
-        <div class="texts">
+    <section class="container-fluid">
         <h1 class="text-left">We are...</h1>
        <p class="text">Youth led software company transforming the sequence of tech in Northern Uganda!</p>
        </div>
+    </div>
 
+    </section>
 
              <!-- main section   -->
 
@@ -76,6 +156,10 @@
                     <div class="col-12 mt-4">
                 <h1 class="mb-5">About Kakebe technologies</h1>
                 <p class="justify-text">Kakebe is  one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda. We provide enhanced IT services to improve productivity and efficiency in businesses, organizations and companies. Building on our technologies, competencies, value and customer interests for our stakeholders and customers. Creating a better everyday life using science and technology.</p>
+
+
+                <img src="img/ptech-talk.JPG" class="img-fluid mb-3" height="200px">
+                
 
                 <p class="justify-text">Kakebe is the central hub of innovations, technology youth involment in technology around the region with headquarters in Lira City. The story of Kakebe started in March 2020 during the COVID-19 outbreak when a team of four vibrant youths saw an opportunity to sell products online due to restrictions but later on birthed into a company that builds softwares and offer different ICT services in Northern Uganda.  </p>
                     
@@ -90,88 +174,91 @@
 
 <!-- ===== OUR SERIVCES  -->
 
-            <div class="container mt-5">
-                <h4>Our Software Services..</h4> <br>
+<div class="container mt-5"> 
+    <h4>Our Software Services..</h4> <br>
 
+    <div class="row">
+    <div class="col-md-4">
+        <div class="card">
+        <div class="card-body">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h5 class="card-title mt-3">Website Development</h5>
+            <p class="card-text">
+            
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+        <div class="card-body">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h5 class="card-title mt-3">App Development</h5>
+            <p class="card-text">
+            
+            </p>
+        </div>
+        </div>
+    </div>
 
-                <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                    <div class="card-body">
-                        <i class="fas fa-cogs fa-3x"></i>
-                        <h5 class="card-title mt-3">Website Development</h5>
-                        <p class="card-text">
-                        
-                        </p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                    <div class="card-body">
-                        <i class="fas fa-cogs fa-3x"></i>
-                        <h5 class="card-title mt-3">App Development</h5>
-                        <p class="card-text">
-                        
-                        </p>
-                    </div>
-                    </div>
-                </div>
+    <div class="col-md-4">
+        <div class="card">
+        <div class="card-body">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h5 class="card-title mt-3">Software Development</h5>
+            <p class="card-text">
+            
+            </p>
+        </div>
+        </div>
+    </div>
 
-                <div class="col-md-4">
-                    <div class="card">
-                    <div class="card-body">
-                        <i class="fas fa-cogs fa-3x"></i>
-                        <h5 class="card-title mt-3">Software Development</h5>
-                        <p class="card-text">
-                        
-                        </p>
-                    </div>
-                    </div>
-                </div>
+    <div class="col-md-4">
+        <div class="card">
+        <div class="card-body">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h5 class="card-title mt-3">Domain Hosting</h5>
+            <p class="card-text">
+            
+            </p>
+        </div>
+        </div>
+    </div>
 
-                <div class="col-md-4">
-                    <div class="card">
-                    <div class="card-body">
-                        <i class="fas fa-cogs fa-3x"></i>
-                        <h5 class="card-title mt-3">Domain Hosting</h5>
-                        <p class="card-text">
-                        
-                        </p>
-                    </div>
-                    </div>
-                </div>
+    <div class="col-md-4">
+        <div class="card">
+        <div class="card-body">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h5 class="card-title mt-3">Networking</h5>
+            <p class="card-text">
+            
+            </p>
+        </div>
+        </div>
+    </div>
 
-                <div class="col-md-4">
-                    <div class="card">
-                    <div class="card-body">
-                        <i class="fas fa-cogs fa-3x"></i>
-                        <h5 class="card-title mt-3">Networking</h5>
-                        <p class="card-text">
-                        
-                        </p>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                    <div class="card-body">
-                        <i class="fas fa-cogs fa-3x"></i>
-                        <h5 class="card-title mt-3">Corperate Trainings</h5>
-                        <p class="card-text">
-                        
-                        </p>
-                    </div>
-                    </div>
-                </div> 
-            </div>
-
+    <div class="col-md-4">
+        <div class="card">
+        <div class="card-body">
+            <i class="fas fa-cogs fa-3x"></i>
+            <h5 class="card-title mt-3">Corperate Trainings</h5>
+            <p class="card-text">
+            
+            </p>
+        </div>
+        </div>
+    </div> 
+    
+    <div class="container mb-3">
+        <a href="#"><button type="button" class=" mt-3 btn btn-success">Get Quote</button></a>
+    </div>
+   
+</div>
 <!-- ===== END OF OUR SERIVCES  -->
 
 
              <!-- core values/ vision and mission -->
-             <hr>
+            
             <div class="container mt-4">
                 <div class="lists">
                 <p class="text-center">
@@ -208,9 +295,11 @@
 
              <!-- end of core values/ vision and mission -->
 
-<hr>
 
-<div class="container my-5">
+
+<!-- OUR PARTNERS -->
+
+<!-- <div class="container my-5">
     <h2 class="text-center mb-5">Our Partners</h2>
     <div class="d-flex flex-wrap justify-content-center">
       <img
@@ -225,13 +314,13 @@
       />
      
     </div>
-  </div>
+  </div> -->
 
 <!-- our team start -->
 
-    <h5 class="section-title h1 text-center">OUR TEAM</h5>
+    <!-- <h5 class="section-title h1 text-center">OUR TEAM</h5>
     <div class="row">
-        <!-- Team member -->
+       
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">
@@ -278,9 +367,8 @@
                 </div>
             </div>
         </div>
-        <!-- ./Team member -->
-
-        <!-- Team member -->
+       
+       
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">
@@ -327,9 +415,8 @@
                 </div>
             </div>
         </div>
-        <!-- ./Team member -->
-
-        <!-- Team member -->
+       
+       
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" >
                 <div class="mainflip flip-0">
@@ -376,10 +463,9 @@
                 </div>
             </div>
         </div>
-        <!-- ./Team member -->
-
+       
         
-        <!-- Team member -->
+       
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">
@@ -426,8 +512,8 @@
                 </div>
             </div>
         </div>
-        <!-- ./Team member -->
-        <!-- Team member -->
+       
+       
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">
@@ -474,8 +560,8 @@
                 </div>
             </div>
         </div>
-        <!-- ./Team member -->
-        <!-- Team member -->
+       
+       
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
                 <div class="mainflip">
@@ -522,14 +608,13 @@
                 </div>
             </div>
         </div>
-        <!-- ./Team member -->
-
+       
     </div>
-</div>
+</div> -->
 <!-- end of our team -->
 
-
-
+</div>
+</div>
 <!-- footer  -->
 
 
@@ -539,11 +624,7 @@
     <div class=" col-sm-6 col-md  col-6 col">
     <h5 class="headin5_amrc col_white_amrc pt2 text-center">About Us</h5>
     <!--headin5_amrc-->
-
     <p class="justify-text-left" style="font-size: 13px;">Kakebe Technologies is a software company based in Lira City and one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda. </p>
-
-    
-    
     </div>
     
     
@@ -573,14 +654,13 @@
     
     <div class="container">
     <ul class="foote_bottom_ul_amrc">
-    <li><a href="http://webenlance.com">Home</a></li>
-    <li><a href="http://webenlance.com">About</a></li>
-    <li><a href="http://webenlance.com">Services</a></li>
-    <li><a href="http://webenlance.com">Projects</a></li>
-    <li><a href="http://webenlance.com">Contact Us</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="programs.html">Programs</a></li>
     </ul>
     <!--foote_bottom_ul_amrc ends here-->
-    <p class="text-center" style="font-size: 15px;">Copyright | Designed With by <a href="#">Kakebe Technologies</a></p>
+    <p class="text-center" style="font-size: 15px;">Copyright | Designed by <a href="https://kakebe.com/">Kakebe Technologies</a></p>
     
     <ul class="social_footer_ul">
     <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
