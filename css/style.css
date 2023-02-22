@@ -5,8 +5,10 @@ body
     font-family: 'Montserrat', sans-serif;
     
 }
+
+/* i */
 .justify-text{
-  text-align: justify;
+  text-align: justify !important
 }
 
 
@@ -126,16 +128,22 @@ padding: 0px 100px 20px 0px;
     max-width: 100%;
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 600px) {
+    .justify-text {
+      text-align: justify;
+    }
+  }
+
+  @media (max-width: 600px) {
     header .container {
       max-width: 1300px;
     }
   }
   
-  header #main-carousel {
+  /* header #main-carousel {
     margin-top: 20px;
     text-shadow: 1px 2px 3px #0000001f;
-  }
+  } */
   
   #main-carousel h5 {
     font-size: 3rem;
