@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!-- Link Display -->
+   <meta property="og:title" content="Internship Program  | Kakebe Technologies ">
+   <meta property="og:description" content="Youth led Software Company transforming the sequence of tech in Northern Uganda!">
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://kakebe.com">
+   <meta property="og:image" content="img/train.JPG">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Program</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!------ Include the above in your HEAD tag ---------->
+
+         <!-- Link Display -->
+         <meta property="og:title" content="Kakebe Technologies - Internship">
+         <meta property="og:description" content="Kakebe is one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda.">
+         <meta property="og:type" content="website">
+         <meta property="og:url" content="https://kakebe.com">
+         <meta property="og:image" content="img/kakebe.JPG">
+
+          <!-- Link Display  -->
+
+        <!-- favicon  -->
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <!--Fonts/Icons CSS-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="fonts/stylesheet.css">
+            <link rel="stylesheet" href="css/service.css">
+   
+            <style>
+                .hero {
+                  background-image: url("img/bg11.jpg");
+                  background-size: cover;
+                  background-position: center;
+                  height: 500px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                }
+          
+                .hero h1 {
+                  font-size: 36px;
+                  color: rgb(232, 12, 12);
+                  text-shadow: 1px 1px #333;
+                }
+                @media(max-width: 850px){
+                  .hero{
+                      max-width: 100%;
+                      height: 30vh; 
+                      overflow: hidden;
+                  }
+                  .mt-5 .row{
+                    text-align:center;
+                  }
+                  .mt-5 .row .col-4 img{
+                    max-width: 350px;
+                  }
+                 
+                  .mt-5 .row .col-7{
+                    max-width: 400px;
+                    justify-content: center;
+                  }
+                  .mt-5 .row p{
+                    text-align: center;
+                    margin-bottom: 50px;
+                  }
+                }
+                .dropbtn {
+                        background-color: transparent;
+                        color: white;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        padding-top: 25px;
+                    }
+                    
+                    .dropdown {
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    .dropdown-content {
+                        display: none;
+                        position: absolute;
+                        background-color: white;
+                        min-width: 150px;
+                        z-index: 1;
+                    }
+                    
+                    .dropdown-content a {
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                    }
+                    
+                    .dropdown-content a:hover {background-color: transparent; 
+                      color: #fc5546;
+                    }
+                    .dropdown:hover .dropdown-content {display: block;color: 
+                      #fc5546;
+                    }
+                    .dropdown:hover .dropbtn {background-color: transparent;
+                       color: #fc5546;
+                      }
+              ul#time-line{
+                  padding: 50px 0;
+                  margin-top: -50px;
+                  list-style-type: none;
+                  position: relative;
+                  overflow: hidden;
+              }
+              ul#time-line:after{
+                  position: absolute;
+                  content: '';
+                  height: 0%;
+                  width: 5px;
+                  border-radius: 20px;
+                  background: white;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                  left: 0;
+                  right: 0;
+                  top: 0;
+                  pointer-events: none;
+                  margin: auto;
+              }
+              ul#time-line li{
+                  width: 50%;
+                  margin-left: auto;
+                  text-align: left;
+                  transition: all cubic-bezier(0.68,0.55,0.265,1.55) .5s;
+                  transform: rotateX(90deg);
+              }
+              ul#time-line li:nth-child(2n){
+                  margin-left: 0;
+                  margin-right: auto;
+                  text-align: right;
+              }
+              ul#time-line li div{
+                  width: 70%;
+                  display: inline-block;
+                  background: white;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                  padding: 30px;
+                  margin: 20px;
+                  border-radius: 30px;	
+                  position: relative;
+                  color: #000;
+              }
+              ul#time-line li div:after{
+                  content: '';
+                  position: absolute;
+                  left: auto;
+                  right: 100%;
+                  top: 45%;
+                  border: solid 10px;
+                  border-color: transparent #303030 transparent transparent;
+              }
+              ul#time-line li div:before{
+                  content: '';
+                  position: absolute;
+                  height: 20px;
+                  width: 20px;
+                  background: #303030;
+                  border-radius: 50%;
+                  left: -30px;
+                  top: 45%;
+              }
+              ul#time-line li:nth-child(2n) div:before{
+                  right: -30px;
+                  left: auto;
+              }
+              ul#time-line li:nth-child(2n) div:after{
+                  left: 100%;
+                  right: auto;
+                  border-color: transparent transparent transparent #303030;
+              }
+              ul#time-line li.visibility {
+                  transform: rotateX(0deg) perspective(360px);
+              }
+              .carousel-control.left,.carousel-control.right  {background:none;width:25px;}
+.carousel-control.left {left:-25px;}
+.carousel-control.right {right:-25px;}
+.broun-block {
+    background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0);
+    padding-bottom: 34px;
+}
+.block-text {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 #2c2222;
+    color: #626262;
+    font-size: 14px;
+    margin-top: 27px;
+    padding: 15px 18px;
+}
+.block-text a {
+ color: #7d4702;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 21px;
+    text-decoration: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.mark {
+    padding: 12px 0;background:none;
+}
+.block-text p {
+    color: #585858;
+    font-family: Georgia;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.sprite-i-triangle {
+    background-position: 0 -1298px;
+    height: 44px;
+    width: 50px;
+}
+.block-text ins {
+    bottom: -44px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.block {
+    display: inline-block;
+}
+.zmin {
+    z-index: 1;
+}
+.ab {
+    position: absolute;
+}
+
+.person-text {
+    padding: 10px 0 0;
+    text-align: center;
+    z-index: 2;
+}
+.person-text a {
+    color: #585858;
+    display: block;
+    font-size: 14px;
+    margin-top: 3px;
+    text-decoration: underline;
+}
+.person-text i {
+    color: #fff;
+    font-family: Georgia;
+    font-size: 13px;
+}
+.rel {
+    position: relative;
+}
+              </style>
+</head>
+<body>
+    <header>
+<!-- ======================================Navigation Bar================================================= -->
+<nav class="navbar navbar-expand-lg navStyle">
+  <a href="index.html"><p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p></a>
+  
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+      <span><i class="fas fa-align-right iconStyle"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="mainMenu">
+      <ul class="navbar-nav ml-auto navList">
+          <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+          <li class="nav-item">
+              <a href="about.html" class="nav-link">Who we are</a>
+          </li>
+          <li class="nav-item">
+              <a href="service.html" class="nav-link">What We Do</a>
+          </li>
+          <li class="nav-item">                    
+          <div class="dropdown">
+          <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+          <div class="dropdown-content">
+          
+          <a href="internship.html" style="color:black">Internship</a>
+          <a href="robotics.html" style="color:black">Robotics</a>
+          <a href="program.html" style="color:black">Website Development</a>
+                    <a href="program.html" style="color:black">App Development</a>
+                    <a href="program.html" style="color:black">Networking</a>
+                    <a href="program.html" style="color:black">Corporate Training</a>
+                    <a href="program.html" style="color:black">Domain Hosting</a>
+          </div>
+          </div>
+          </li>
+          <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html" class="nav-link">Gallery</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+<!-- ======================================carousel================================================= -->
+<section class="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1>Gulu City National Youth Gather</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="first-row container mt-5">
+    <div class="row">
+        <div class="col-6">
+            <video src="sedrick.mp4" controls width="70%" height="60%"></video>
+        </div>
+        <div class="col-6">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates eaque maiores alias. Quam illo tempora a beatae dolore ipsum voluptatibus, veritatis perspiciatis nostrum assumenda? Laudantium, harum, deserunt et cum blanditiis iure dolorem fugiat recusandae repudiandae ipsum sequi doloremque maxime?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, recusandae, qui voluptatem debitis dolorem ipsum consequatur sunt facere id veniam tenetur, nam iure a neque. Tenetur iusto est ad eius dicta officia, rem minus adipisci? Autem velit facilis tempore totam?
+                </p>
+            </div>
+    </div>
+</div>
+</header>
+<!-- main content  -->
+<div class="body">
+    
+    <ul id="time-line">
+            <li>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <h3>INNOVATION</h3>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <h3>LEADERSHIP</h3>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <h3>ENTREPRENEURSHIP</h3>
+                    </p>
+                </div>
+            </li>	
+        </ul>
+    </div>
+<!-- end of main content  -->
+  
+<!-- i will be there -->
+<div class="container mt-5">
+	<h2 class="text-center">I will be there</h2>
+</div>
+<div class="carousel-reviews broun-block">
+    <div class="container">
+        <div class="row">
+            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
+            
+                <div class="carousel-inner">
+                    <div class="row item active">
+                	    <div class="col-md-4 col-sm-6">
+        				    <div class="block-text rel zmin">
+							    <i>Lorem, ipsum dolor.</i>
+						        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis illum cumque ab dicta tempore natus obcaecati ad incidunt, animi iure laborum alias harum maiores explicabo. Iusto reprehenderit magnam asperiores non!</p>
+							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+					        </div>
+							<div class="person-text rel">
+				                <img src=""/>
+								<a title="" href="#">Emmanuel</a>
+							</div>
+						</div>
+            			<div class="col-md-4 col-sm-6 hidden-xs">
+						    <div class="block-text rel zmin">
+							    <i>Lorem, ipsum dolor.</i>
+        						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt provident deleniti laudantium soluta similique corporis deserunt maxime non, consequuntur sit repellendus sint quod eius nostrum exercitationem sapiente, quo et aliquam?</p>
+					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
+				            </div>
+							<div class="person-text rel">
+				                <img src=""/>
+						        <a  href="#">Sedrick</a>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
+							<div class="block-text rel zmin">
+								<i>Lorem, ipsum dolor.</i>
+    							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam incidunt rerum, atque deserunt ex at voluptas nesciunt repudiandae. Eligendi quam molestiae quos soluta dolorem deleniti inventore exercitationem similique expedita. </p>
+								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
+							</div>
+							<div class="person-text rel">
+								<img src=""/>
+								<a title="" href="#">Salume</a>
+							</div>
+						</div>
+                    </div>                  
+                </div>
+                <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end of i will be there -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        $('ul#time-line li').each(function(){           
+    var stop = $(window).scrollTop() + $(window).height()/1.2;
+    var litop = $(this).offset().top;
+    if (stop > litop){
+        $(this).addClass('visibility');
+    }           
+});
+$(window).scroll(function(){    
+    $('ul#time-line li').each(function(){           
+        var stop = $(window).scrollTop() + $(window).height()/1.2;
+        var litop = $(this).offset().top;
+        if (stop > litop){
+            $(this).addClass('visibility');
+        } else{
+            $(this).removeClass('visibility');
+        };
+        console.log(litop+' - '+stop);
+    });
+});
+    </script>
+
+    
+   <!-- footer  -->
+   <footer class="footer">
+    <div class="container bottom_border">
+    <div class="row">
+    <div class=" col-sm-6 col-md  col-6 col">
+    <h5 class="headin5_amrc col_white_amrc pt2 text-center">About Us</h5>
+    <!--headin5_amrc-->
+    <p class="justify-text-left" style="font-size: 13px;">Kakebe Technologies is a software company based in Lira City and one of the market leaders in offering science and technology services to the public in a time -saving and efficient way in Northern Uganda. </p>
+   
+    
+    
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-4 col">
+    <h5 class="headin5_amrc col_white_amrc pt2 text-center">Quick links</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc text-center">
+    <li><a href="http://webenlance.com">Kakebe Shop</a></li>
+    <li><a href="http://webenlance.com">Privacy Policy</a></li>
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-4 col">
+    <h5 class="headin5_amrc col_white_amrc pt2 text-center">We would love to hear from you</h5>
+    <!--headin5_amrc-->
+   <a href="mailto:service@kakebe.com" class="text-light"><p class="text-center" style="font-size: 13px;">service@kakebe.com</p></a>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+    
+    
+    </div>
+    </div>
+    
+    
+    <div class="container">
+    <ul class="foote_bottom_ul_amrc">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="service.html">Services</a></li>
+    <li><a href="programs.html">Programs</a></li>
+    </ul>
+    <!--foote_bottom_ul_amrc ends here-->
+    <p class="text-center" style="font-size: 15px;">Copyright | Designed by <a href="https://kakebe.com/">Kakebe Technologies</a></p>
+    
+    <ul class="social_footer_ul">
+    <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="http://webenlance.com"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+    <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    <!--social_footer_ul ends here-->
+    </div>
+    
+    </footer>
+    
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+    <!--Start of Tawk.to Script-->
+</body>
+</html>
