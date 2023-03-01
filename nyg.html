@@ -8,12 +8,15 @@
    <meta property="og:type" content="website">
    <meta property="og:url" content="https://kakebe.com">
    <meta property="og:image" content="img/train.JPG">
+   
 
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internship Program</title>
+    <title>NYG</title>
+    
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <link rel="stylesheet" href="css/style.css">
@@ -21,6 +24,8 @@
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!------ Include the above in your HEAD tag ---------->
+        <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
          <!-- Link Display -->
          <meta property="og:title" content="Kakebe Technologies - Internship">
@@ -29,7 +34,8 @@
          <meta property="og:url" content="https://kakebe.com">
          <meta property="og:image" content="img/kakebe.JPG">
 
-          <!-- Link Display  -->
+          <!-- boxico link  -->
+          <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
         <!-- favicon  -->
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
@@ -38,10 +44,11 @@
             <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="fonts/stylesheet.css">
             <link rel="stylesheet" href="css/service.css">
-   
+            <link rel="stylesheet" href="css/nyg.css">
             <style>
                 .hero {
-                  background-image: url("img/bg11.jpg");
+                  /* background-image: url("img/bg11.jpg"); */
+                  background-image: linear-gradient(rgb(0,0,0,.2),rgba(59, 58, 58,.3)),url('img/bg11.jpg');
                   background-size: cover;
                   background-position: center;
                   height: 500px;
@@ -114,352 +121,341 @@
                     .dropdown:hover .dropbtn {background-color: transparent;
                        color: #fc5546;
                       }
-              ul#time-line{
-                  padding: 50px 0;
-                  margin-top: -50px;
-                  list-style-type: none;
-                  position: relative;
-                  overflow: hidden;
-              }
-              ul#time-line:after{
-                  position: absolute;
-                  content: '';
-                  height: 0%;
-                  width: 5px;
-                  border-radius: 20px;
-                  background: white;
-                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                  left: 0;
-                  right: 0;
-                  top: 0;
-                  pointer-events: none;
-                  margin: auto;
-              }
-              ul#time-line li{
-                  width: 50%;
-                  margin-left: auto;
-                  text-align: left;
-                  transition: all cubic-bezier(0.68,0.55,0.265,1.55) .5s;
-                  transform: rotateX(90deg);
-              }
-              ul#time-line li:nth-child(2n){
-                  margin-left: 0;
-                  margin-right: auto;
-                  text-align: right;
-              }
-              ul#time-line li div{
-                  width: 70%;
-                  display: inline-block;
-                  background: white;
-                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                  padding: 30px;
-                  margin: 20px;
-                  border-radius: 30px;	
-                  position: relative;
-                  color: #000;
-              }
-              ul#time-line li div:after{
-                  content: '';
-                  position: absolute;
-                  left: auto;
-                  right: 100%;
-                  top: 45%;
-                  border: solid 10px;
-                  border-color: transparent #303030 transparent transparent;
-              }
-              ul#time-line li div:before{
-                  content: '';
-                  position: absolute;
-                  height: 20px;
-                  width: 20px;
-                  background: #303030;
-                  border-radius: 50%;
-                  left: -30px;
-                  top: 45%;
-              }
-              ul#time-line li:nth-child(2n) div:before{
-                  right: -30px;
-                  left: auto;
-              }
-              ul#time-line li:nth-child(2n) div:after{
-                  left: 100%;
-                  right: auto;
-                  border-color: transparent transparent transparent #303030;
-              }
-              ul#time-line li.visibility {
-                  transform: rotateX(0deg) perspective(360px);
-              }
-              .carousel-control.left,.carousel-control.right  {background:none;width:25px;}
-.carousel-control.left {left:-25px;}
-.carousel-control.right {right:-25px;}
-.broun-block {
-    background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0);
-    padding-bottom: 34px;
-}
-.block-text {
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 3px 0 #2c2222;
-    color: #626262;
-    font-size: 14px;
-    margin-top: 27px;
-    padding: 15px 18px;
-}
-.block-text a {
- color: #7d4702;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 21px;
-    text-decoration: none;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-.mark {
-    padding: 12px 0;background:none;
-}
-.block-text p {
-    color: #585858;
-    font-family: Georgia;
-    font-style: italic;
-    line-height: 20px;
-}
-
-.sprite-i-triangle {
-    background-position: 0 -1298px;
-    height: 44px;
-    width: 50px;
-}
-.block-text ins {
-    bottom: -44px;
-    left: 50%;
-    margin-left: -60px;
-}
-
-
-.block {
-    display: inline-block;
-}
-.zmin {
-    z-index: 1;
-}
-.ab {
-    position: absolute;
-}
-
-.person-text {
-    padding: 10px 0 0;
-    text-align: center;
-    z-index: 2;
-}
-.person-text a {
-    color: #585858;
-    display: block;
-    font-size: 14px;
-    margin-top: 3px;
-    text-decoration: underline;
-}
-.person-text i {
-    color: #fff;
-    font-family: Georgia;
-    font-size: 13px;
-}
-.rel {
-    position: relative;
-}
               </style>
+
 </head>
 <body>
     <header>
-<!-- ======================================Navigation Bar================================================= -->
-<nav class="navbar navbar-expand-lg navStyle">
-  <a href="index.html"><p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p></a>
-  
-  <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
-      <span><i class="fas fa-align-right iconStyle"></i></span>
-  </button>
-  <div class="collapse navbar-collapse" id="mainMenu">
-      <ul class="navbar-nav ml-auto navList">
-          <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
-          <li class="nav-item">
-              <a href="about.html" class="nav-link">Who we are</a>
-          </li>
-          <li class="nav-item">
-              <a href="service.html" class="nav-link">What We Do</a>
-          </li>
-          <li class="nav-item">                    
-          <div class="dropdown">
-          <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
-          <div class="dropdown-content">
+        <!-- ======================================Navigation Bar================================================= -->
+        <nav class="navbar navbar-expand-lg navStyle">
+          <a href="index.html"><p><img src="img/logo copy.png" alt="Logo" height="60px"><span></span></p></a>
           
-          <a href="nyg.html" style="color:black">NYG</a>
-          <a href="robotics.html" style="color:black">Robotics</a>
-          <a href="program.html" style="color:black">Website Development</a>
-                    <a href="program.html" style="color:black">App Development</a>
-                    <a href="program.html" style="color:black">Networking</a>
-                    <a href="program.html" style="color:black">Corporate Training</a>
-                    <a href="program.html" style="color:black">Domain Hosting</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#mainMenu">
+              <span><i class="fas fa-align-right iconStyle"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainMenu">
+              <ul class="navbar-nav ml-auto navList">
+                  <li class="nav-item active"><a href="index.html" class="nav-link">HOME</a></li>
+                  <li class="nav-item">
+                      <a href="about.html" class="nav-link">Who we are</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="service.html" class="nav-link">What We Do</a>
+                  </li>
+                  <li class="nav-item">                    
+                  <div class="dropdown">
+                  <button class="dropbtn" style="text-transform: uppercase;">Our programs</button>
+                  <div class="dropdown-content">
+                  
+                  <a href="nyg.html" style="color:black">NYG</a>
+                  <a href="robotics.html" style="color:black">Robotics</a>
+                  <a href="program.html" style="color:black">Website Development</a>
+                            <a href="program.html" style="color:black">App Development</a>
+                            <a href="program.html" style="color:black">Networking</a>
+                            <a href="program.html" style="color:black">Corporate Training</a>
+                            <a href="program.html" style="color:black">Domain Hosting</a>
+                  </div>
+                  </div>
+                  </li>
+                  <li class="nav-item">
+                      <a href="contact.html" class="nav-link">contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+              </ul>
           </div>
-          </div>
-          </li>
-          <li class="nav-item">
-              <a href="contact.html" class="nav-link">contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="gallery.html" class="nav-link">Gallery</a>
-        </li>
-      </ul>
-  </div>
-</nav>
-<!-- ======================================carousel================================================= -->
-<section class="hero">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h1>Gulu City National Youth Gather</h1>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<div class="first-row container mt-5">
-    <div class="row">
-        <div class="col-6">
-            <video src="sedrick.mp4" controls width="70%" height="60%"></video>
-        </div>
-        <div class="col-6">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates eaque maiores alias. Quam illo tempora a beatae dolore ipsum voluptatibus, veritatis perspiciatis nostrum assumenda? Laudantium, harum, deserunt et cum blanditiis iure dolorem fugiat recusandae repudiandae ipsum sequi doloremque maxime?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, recusandae, qui voluptatem debitis dolorem ipsum consequatur sunt facere id veniam tenetur, nam iure a neque. Tenetur iusto est ad eius dicta officia, rem minus adipisci? Autem velit facilis tempore totam?
-                </p>
+        </nav>
+        <!-- ======================================carousel================================================= -->
+        <section class="hero">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h1 style="font-size: 50px; font-weight: bold;">Gulu City National Youth Gather</h1>
+                </div>
+              </div>
             </div>
-    </div>
-</div>
-</header>
-<!-- main content  -->
-<div class="body">
-    
-    <ul id="time-line">
-            <li>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <h3>INNOVATION</h3>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <h3>LEADERSHIP</h3>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        <h3>ENTREPRENEURSHIP</h3>
-                    </p>
-                </div>
-            </li>	
-        </ul>
-    </div>
-<!-- end of main content  -->
+          </section>
+        </header>
+    <!-- what we do  -->
+   
+    <section id="what-we-do" class="what-we-do">
+        <div class="container">
   
-<!-- i will be there -->
-<div class="container mt-5">
-	<h2 class="text-center">I will be there</h2>
-</div>
-<div class="carousel-reviews broun-block">
-    <div class="container">
-        <div class="row">
-            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
-            
-                <div class="carousel-inner">
-                    <div class="row item active">
-                	    <div class="col-md-4 col-sm-6">
-        				    <div class="block-text rel zmin">
-							    <i>Lorem, ipsum dolor.</i>
-						        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis illum cumque ab dicta tempore natus obcaecati ad incidunt, animi iure laborum alias harum maiores explicabo. Iusto reprehenderit magnam asperiores non!</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-					        </div>
-							<div class="person-text rel">
-				                <img src=""/>
-								<a title="" href="#">Emmanuel</a>
-							</div>
-						</div>
-            			<div class="col-md-4 col-sm-6 hidden-xs">
-						    <div class="block-text rel zmin">
-							    <i>Lorem, ipsum dolor.</i>
-        						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt provident deleniti laudantium soluta similique corporis deserunt maxime non, consequuntur sit repellendus sint quod eius nostrum exercitationem sapiente, quo et aliquam?</p>
-					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-				            </div>
-							<div class="person-text rel">
-				                <img src=""/>
-						        <a  href="#">Sedrick</a>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-							<div class="block-text rel zmin">
-								<i>Lorem, ipsum dolor.</i>
-    							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam incidunt rerum, atque deserunt ex at voluptas nesciunt repudiandae. Eligendi quam molestiae quos soluta dolorem deleniti inventore exercitationem similique expedita. </p>
-								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
-							</div>
-							<div class="person-text rel">
-								<img src=""/>
-								<a title="" href="#">Salume</a>
-							</div>
-						</div>
-                    </div>                  
-                </div>
-                <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+  
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4>Leadership</h4>
+                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
             </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4>Innovation</h4>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+              <div class="icon-box">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4>Entrepreneurship</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              </div>
+            </div>
+  
+          </div>
+  
         </div>
-    </div>
-</div>
-<!-- end of i will be there -->
+      </section><br><br><!-- End What We Do Section --> 
+      
+        <!-- ======= About Us Section ======= -->
+    <section id="about" class="about mt-5">
+        <div class="container">
+  
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img src="img/bg2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>About the Gulu City National Youth Gather.</h3>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo error nobis accusantium alias quos magnam ab nihil, eos impedit aspernatur?
+              </p>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End About Us Section -->
 
+      <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us mt-5">
+        <div class="container">
+            <h1 class="activities text-center py-5">Expectations & Activities</h1>
+          <div class="row no-gutters">
+  
+            <div class="col-lg-4 col-md-6 content-item">
+              <span>01</span>
+              <h4>Lorem Ipsum</h4>
+              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 content-item">
+              <span>02</span>
+              <h4>Repellat Nihil</h4>
+              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 content-item">
+              <span>03</span>
+              <h4> Ad ad velit qui</h4>
+              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 content-item">
+              <span>04</span>
+              <h4>Repellendus molestiae</h4>
+              <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 content-item">
+              <span>05</span>
+              <h4>Sapiente Magnam</h4>
+              <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 content-item">
+              <span>06</span>
+              <h4>Facilis Impedit</h4>
+              <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Why Us Section -->
+
+       <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta mt-5">
+        <div class="container">
+  
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-start">
+              <h3>Call To Register</h3>
+              <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="#">Register</a>
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Cta Section -->
+
+      <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg mt-5">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2 class="text-center">Panelists</h2>
+            <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="img/1r.png" alt="">
+                <h4>Sedrick Otolo</h4>
+                <span>Chief Executive Officer</span>
+                <p>
+                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                </p>
+                <div class="social">
+                  <a href=""><i class='bx bxl-twitter'></i></a>
+                  <a href=""><i class='bx bxl-facebook-square'></i></a>
+                  <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                  <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="img/1r.png" alt="">
+                <h4>Omara Boniface</h4>
+                <span>Space Engineer</span>
+                <p>
+                  Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                </p>
+                <div class="social">
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-facebook-square'></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                  </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="img/1r.png" alt="">
+                <h4>Amanya Belinder</h4>
+                <span>Vice Guild President</span>
+                <p>
+                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                </p>
+                <div class="social">
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-facebook-square'></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                  </div>
+              </div>
+            </div>
+  
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="img/1r.png" alt="">
+                <h4>Sedrick Otolo</h4>
+                <span>Chief Executive Officer</span>
+                <p>
+                  Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                </p>
+                <div class="social">
+                  <a href=""><i class='bx bxl-twitter'></i></a>
+                  <a href=""><i class='bx bxl-facebook-square'></i></a>
+                  <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                  <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="img/1r.png" alt="">
+                <h4>Omara Boniface</h4>
+                <span>Space Engineer</span>
+                <p>
+                  Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                </p>
+                <div class="social">
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-facebook-square'></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                  </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member">
+                <img src="img/1r.png" alt="">
+                <h4>Amanya Belinder</h4>
+                <span>Vice Guild President</span>
+                <p>
+                  Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                </p>
+                <div class="social">
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                    <a href=""><i class='bx bxl-facebook-square'></i></a>
+                    <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                    <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                  </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Team Section -->
+
+       <!-- ======= Our Clients Section ======= -->
+    <section id="clients" class="clients" style="margin-top: 50px;">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2 class="text-center">Our Partners</h2>
+            <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+  
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center d-flex" style="justify-content: space-between;">
+              <div class="swiper-slide"><img src="img/amara.png" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/favicon.png" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/logo.png" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/tiv.jpg" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/amara.png" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/favicon.png" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/logo.png" width="100px" class="img-fluid" alt=""></div>
+              <div class="swiper-slide"><img src="img/tiv.jpg" width="100px" class="img-fluid" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+        </div>
+      </section><!-- End Our Clients Section -->
+
+     
+      <!-- testimonials -->
+
+      <!-- end of testimonials  -->
+  
+<script src="js/nyg.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script>
-        $('ul#time-line li').each(function(){           
-    var stop = $(window).scrollTop() + $(window).height()/1.2;
-    var litop = $(this).offset().top;
-    if (stop > litop){
-        $(this).addClass('visibility');
-    }           
-});
-$(window).scroll(function(){    
-    $('ul#time-line li').each(function(){           
-        var stop = $(window).scrollTop() + $(window).height()/1.2;
-        var litop = $(this).offset().top;
-        if (stop > litop){
-            $(this).addClass('visibility');
-        } else{
-            $(this).removeClass('visibility');
-        };
-        console.log(litop+' - '+stop);
-    });
-});
-    </script>
 
     
    <!-- footer  -->
